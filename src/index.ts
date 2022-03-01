@@ -6,6 +6,7 @@ import * as dotenv from "dotenv";
 import express from "express";
 import cors from "cors";
 import helmet from "helmet";
+import { Script } from "vm";
 
 dotenv.config();
 
@@ -37,5 +38,7 @@ app.listen(PORT, () => {
 	console.log(`Listening on port ${PORT}`);
 
   // Escreva aqui a sua msg para o mundo
-  
+
+ console.log = "OLÁ MUNDO BORA QUEBRAR TUDO!"
+
 });
