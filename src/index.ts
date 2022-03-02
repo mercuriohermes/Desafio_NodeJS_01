@@ -39,6 +39,6 @@ app.listen(PORT, () => {
 
   // Escreva aqui a sua msg para o mundo
 
- console.log = "OLÁ MUNDO BORA QUEBRAR TUDO!"
+ console.log("OLÁ MUNDO BORA QUEBRAR TUDO!")
 
 });
